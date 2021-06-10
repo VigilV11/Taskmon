@@ -1,0 +1,71 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroSection {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: midnightblue;
+}
+
+h3 {
+  color: lightskyblue;
+}
+
+/* User register */
+
+.userRegister {
+  width: 22%;
+  display: block;
+  margin: 2rem 0;
+}
+.userRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  align-items: center;
+}
+
+input {
+  height: 20px;
+  border: 1px #aaa solid;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+input:focus {
+  outline: none;
+  border-color: midnightblue;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.submitButton {
+  margin-top: 1rem;
+  width: 100%;
+  height: 32px;
+  cursor: pointer;
+  background-color: lightskyblue;
+  border: 1px #aaa solid;
+  border-radius: 5px;
+  color: #333;
+}
+
+.submitButton:hover {
+  background-color: midnightblue;
+  color: #fff;
+}
